@@ -1,0 +1,93 @@
+body{
+    background-color: #FFE6CF;/*color de fondo*/
+    color: black;/*color de letra*/
+}
+
+#Barra a{ /*estilo a las etiquetas a*/
+    text-decoration: none;
+    color: white;
+}
+
+#Barra a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#Barra{ /* formato a todo el id: barra*/;
+    background-color: #D1BDA1;/*color de fondo*/
+    position: absolute;/* tomara todo el espacio*/
+    left: 0;/* para que tome el lugar del margen a la izq*/
+    top: 0;/* para que suba al margen superior*/
+    display: block;
+    width: 100%;
+}
+
+#Barra ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Barra li{
+    float: left;
+}
+
+#Barra li a{
+    padding: 30px; /*espacio entre los elementos*/
+    display: inline-block;
+    text-decoration: none;
+}
+
+#Barra li a:hover{
+    background-color: coral;
+    color: black;
+}
+
+/*identificador de contenido*/
+
+#Contenido{
+    max-width: 100%;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 2%;
+}
+
+#Contenido header{
+    height: 120px;/* alto*/
+    padding: 10px 20px;
+    background-color: limegreen;
+    border: dotted;
+    border-radius: 1em;
+    color: white;
+}
+
+#Principal{
+    width: 35%;/*ancho*/
+    float: left;/* ubicar a la izq*/
+    padding: 4px;/*espaciado*/
+}
+
+#Secundaria{
+    width: 35%;/*ancho*/
+    float: left;/* ubicar a la izq*/
+    padding: 4px;/*espaciado*/
+}
+
+#Contenido aside{
+    width: 20%;/*ancho*/
+    float: left;
+    padding: 4px;/*espaciado*/
+}
+
+#Contenido footer{
+    clear: both;
+    width: 100%;
+    background-color: limegreen;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border: dotted;
+    border-radius: 1em;
+}
